@@ -1,12 +1,16 @@
 <template>
   <div style="overflow: hidden">
     <div class="bg"></div>
-    <div class="jumbotron text-center rounded shadow-lg">
-      <h1>Bouwbedrijf Stoop</h1>
-      <p>
-        Welkom op de website van bouwbedrijf Stoop. Op het moment wordt er aan onze website gewerkt. Als u vragen
-        heeft over een project of opdracht kunt u contact met ons opnemen via de bekende kanalen.
-      </p>
+    <div class="absolute-container">
+      <img class="rounded mb-4"
+           src="/images/logo.jpg" alt="">
+      <div class="jumbotron text-center rounded shadow-lg">
+        <h1>Bouwbedrijf Stoop</h1>
+        <p>
+          Welkom op de website van bouwbedrijf Stoop. Op het moment wordt er aan onze website gewerkt. Als u vragen
+          heeft over een project of opdracht kunt u contact met ons opnemen.
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -39,12 +43,23 @@
     content: '';
   }
 
-  .jumbotron {
-    z-index: 3;
-    max-width: 80%;
+  img {
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .absolute-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jumbotron {
+    z-index: 3;
+    max-width: 80%;
   }
 </style>
