@@ -12,7 +12,7 @@
           <div class="card-body">
             <h5 class="card-title">{{project.title}}</h5>
             <p class="card-text">{{getShortDescription(project.description)}}</p>
-            <nuxt-link :to="project.slug" class="btn btn-primary font-weight-bold">Meer informatie</nuxt-link>
+            <nuxt-link :to="project.slug" class="btn btn-primary font-weight-bold w-100">Meer informatie</nuxt-link>
           </div>
         </div>
       </div>

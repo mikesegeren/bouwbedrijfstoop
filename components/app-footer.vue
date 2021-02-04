@@ -7,7 +7,9 @@
         </div>
         <div style="max-width: 33%" class="mx-4 d-none d-lg-block">
           <p class="text-light">
-            Wij zijn sinds 2010 actief als bouwbedrijf
+            P.Stoop bouwbedrijf BV uit Made onderscheidt zich van andere aannemingsbedrijven door de veelzijdigheid. Als
+            jong en ambitieus bedrijf, maar wél met 20 jarenlange ervaring onder de pet, zetten wij ons voor de volle
+            100% in.
           </p>
         </div>
         <div class="d-none d-lg-block">
