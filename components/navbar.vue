@@ -2,11 +2,11 @@
   <div class="nav-bar py-3 bg-primary">
     <div class="d-flex align-items-center justify-content-between container">
       <nuxt-link to="/">
-        <img class="logo" src="images/logo-small.jpg" alt="">
+        <img class="logo" src="/images/logo-small.jpg" alt="">
       </nuxt-link>
 
       <div class="nav-items d-none d-md-block">
-        <nuxt-link v-for="item in navItems" class="nav-item px-2" :to="item.route" :key="item.name"
+        <nuxt-link v-for="item in navItems" class="nav-item px-2" :to="item.route" :key="item.name" :class="[item.name]"
                    active-class="active">
           {{ item.name }}
         </nuxt-link>
@@ -17,6 +17,7 @@
       <div v-if="showMenu" class="mobile-menu px-3 w-50">
         <div @click="toggleMenu()" class="d-flex flex-column">
           <nuxt-link v-for="item in navItems" class="nav-item px-2 border-bottom py-2" :to="item.route" :key="item.name"
+                     :class="[item.name]"
                      active-class="active">
             {{ item.name }}
           </nuxt-link>
@@ -95,6 +96,15 @@
 
     &:hover {
       opacity: .7;
+    }
+
+    &.active {
+      &.projecten {
+        font-weight: 700;
+      }
+      &.over-ons {
+        font-weight: 700;
+      }
     }
   }
 </style>

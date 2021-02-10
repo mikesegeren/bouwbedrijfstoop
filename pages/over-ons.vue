@@ -59,7 +59,7 @@
           const selector = this.$route.hash.substring(1)
           const container = this.$el.querySelector(`.${selector}`)
           container.scrollIntoView({ behavior: 'smooth' })
-        }, 500)
+        }, 200)
       }
     }
   }

@@ -7,7 +7,7 @@
         <div class="card d-flex flex-column flex-grow-1">
           <div class="card-body text-center">
             <div class="rounded-circle bg-primary text-light mx-auto mb-3">
-              <i class="icon bi-house-fill"></i>
+              <i class="icon bi-house-door-fill"></i>
             </div>
             <h2 class="mb-3">Nieuwbouw & Aanbouw</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur consequatur delectus
