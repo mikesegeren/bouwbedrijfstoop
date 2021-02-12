@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-primary mb-3 font-weight-bold">Welkom op de website van P.Stoop Bouwbedrijf!</h1>
+    <h1 class="text-primary mb-3 font-weight-bold">Welkom op de website van P.Stoop Bouwbedrijf B.V.</h1>
 
     <div class="row mt-5">
       <div class="col-md-4 mb-3 d-flex flex-column flex-grow-1">
