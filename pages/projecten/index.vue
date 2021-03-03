@@ -34,6 +34,9 @@
 
   export default {
     name: 'projecten',
+    head: {
+      title: 'Bekijk onze projecten | P.Stoop Bouwbedrijf'
+    },
     data() {
       return {
         projects: []

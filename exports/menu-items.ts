@@ -9,6 +9,9 @@ export const navItems = [
     name: 'projecten',
     route: '/projecten'
   }, {
+    name: 'vacatures',
+    route: '/vacatures'
+  }, {
     name: 'contact',
     route: '/contact'
   }

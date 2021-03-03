@@ -43,6 +43,9 @@
 
   export default {
     name: 'contact',
+    head: {
+      title: 'Neem contact met ons op | P.Stoop Bouwbedrijf'
+    },
     components: {
       ContactSection
     }
